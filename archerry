@@ -1,0 +1,21 @@
+#! /usr/bin/env fish
+
+###############################################################################
+#
+# Author: Stephen P Marsden
+# Date: 2022-09-10
+#
+# Description: Checks for available pacman updates. If updates are available 
+# a cherry emoji and the number of packages to be updates are printed.
+#
+# Dependencies: fish
+#               checkupdates
+#
+###############################################################################
+
+# Count the number of updates
+set n_updates (checkupdates | wc -l)
+
+if test $n_updates -gt 0
+    echo "🍒 ($n_updates)"
+end
