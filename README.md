@@ -20,4 +20,4 @@ This was designed with the GNOME shell extension [Executor](https://extensions.g
 
 Example output:
 
-`🍒 (62)`
+`🍒(62)`
