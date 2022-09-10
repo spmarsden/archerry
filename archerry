@@ -17,5 +17,5 @@
 set n_updates (checkupdates | wc -l)
 
 if test $n_updates -gt 0
-    echo "🍒 ($n_updates)"
+    echo "🍒($n_updates)"
 end
